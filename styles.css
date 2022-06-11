@@ -1,0 +1,251 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+    background-color: #e2ddda;
+}
+.flex{
+    display:flex;
+    justify-content: center;
+}
+header{
+	background: url("image/farm.jpg") center center no-repeat;
+	background-size: cover;
+	height: 450px;
+	text-align: center;
+}
+
+header nav{
+    padding: 20px 0 20px 0;
+    width: 100%;
+    background-color: #e7e6d4;
+    border-bottom-style: solid;
+    border-width: 10px;
+    border-color: #c5c8b3;
+}
+
+header nav ul li{
+    width: 20%;
+    list-style-type : none;
+}
+header nav ul li a {
+    text-decoration: none;
+    margin: 10px 20px 10px 20px;
+    padding: 5px 15% 5px 15%;
+    color: black;
+}
+header nav ul li a:hover{
+    background-color: #c5c8b3;
+    color: #d77f0a;
+}
+
+header div{
+    width: 35%;
+    background-color: rgba(231,230,212,0.5);
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgba(197,200,179,0.5);
+    border-width: 10px;
+    display: inline-block;
+    padding: 20px 10px 20px 10px;
+    margin-top: 75px;
+    
+}
+header div img{
+    width: 100px;
+}
+header div a{
+    text-decoration: none;
+}
+header div h1{
+    color: green;
+    font-size: 250%;
+    text-decoration: underline;
+}
+
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-bottom: 20px;
+}
+footer img{
+    width: 100px;
+}
+footer ul li{
+    padding: 10px 20px 10px 20px;
+    list-style-type : none;
+}
+footer section{
+    margin: 0 40px 0 40px;
+}
+footer h2{
+    padding-top: 20px;
+    text-decoration: underline;
+}
+footer a h2{
+    color: white;
+}
+footer  img{
+    margin: 10px 0 10px 0;
+}
+
+
+
+.flex2{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flex3{
+    display:flex;
+}
+main section{
+    text-align: center;
+}
+main .flex2 article{
+    width: 80%;
+    margin: 20px 20px 20px 20px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 10px;
+    border-color: rgba(197,200,179,0.5);
+    background-color: rgba(231,230,212,0.5);
+
+}
+main article ul li {
+    list-style-type : none;
+}
+.flex2 img{
+    width: 100%;
+    border-radius: 5px;
+}
+.txt{
+    width: 25%;
+    display: table;
+}
+
+.txt h3{
+    font-size: 150%;
+    text-decoration: underline;
+    background-color: #d77f0a;
+    margin:25px 0 25px 0;
+    color: white;
+    padding: 10px 5px 10px 5px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #d77f0a;
+    border-radius: 10px;
+}
+.txt a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: gray;
+    color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    margin-top: 20px;
+}
+.txt a:hover{
+    background-color: white;
+    color: gray;
+    border-color: gray;
+}
+
+.image{
+    width: 75%;
+}
+.vertical{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+main section h2{
+    display: inline-block;
+    font-size: 175%;
+    background-color: green;
+    color: white;
+    padding: 10px 50px 10px 50px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: green;
+    border-radius: 10px;
+    margin: 0 0 25px 0;
+    text-decoration: underline;
+    margin-top: 40px;
+}
+
+main .commande article{
+    width: 25%;
+    margin: 20px 1% 20px 1%;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 10px;
+    border-color: rgba(197,200,179,0.5);
+    background-color: rgba(231,230,212,0.5);
+}
+
+main .commande article a{
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px 0 10px 0;
+    padding: 10px 10px 10px 10px;
+    background-color: gray;
+    color: white;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color:white;
+}
+
+main .commande article a:hover{
+    background-color: white;
+    color: gray;
+    border-color:gray;
+}
+
+main .commande article span{
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px 0 10px 0;
+    padding: 10px 10px 10px 10px;
+    background-color: gray;
+    color: white;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color:white;
+}
+
+.oui a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 175%;
+    background-color: #d77f0a;
+    color: white;
+    padding: 10px 50px 10px 50px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #d77f0a;
+    border-radius: 10px;
+    margin: 0 0 25px 0;
+
+}
+.oui {
+    text-align: center;
+}
+.oui a:hover{
+    background-color: white;
+    color: black;
+    border-color: red;
+}
+
+.merci {
+    padding: 200px 0 200px 0;
+    font-size: 125%;
+}
